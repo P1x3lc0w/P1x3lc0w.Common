@@ -2,7 +2,7 @@
 using System.IO;
 using System.Security.Cryptography;
 
-namespace P1x3lc0w.DiscordStarboardBot
+namespace P1x3lc0w.Common
 {
     public static class Crypto
     {
