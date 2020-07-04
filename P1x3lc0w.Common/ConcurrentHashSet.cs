@@ -10,6 +10,7 @@ namespace P1x3lc0w.Common
     /// <remarks>
     /// Originally written by https://stackoverflow.com/users/344143/ben-mosher
     /// (https://stackoverflow.com/questions/4306936/how-to-implement-concurrenthashset-in-net)
+    /// Licenced under Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)(https://creativecommons.org/licenses/by-sa/3.0/)
     /// </remarks>
     /// <typeparam name="T"></typeparam>
     public class ConcurrentHashSet<T> : IDisposable
