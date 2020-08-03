@@ -4,7 +4,7 @@ using System.Text;
 
 namespace P1x3lc0w.Common
 {
-    class SimpleProvider<T> : IProvider<T>
+    public class SimpleProvider<T> : IProvider<T>
     {
         public T ProvidedObject { get; protected set; }
 

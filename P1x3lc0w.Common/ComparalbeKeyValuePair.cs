@@ -14,8 +14,8 @@ namespace P1x3lc0w.Common
             this.value = value;
         }
 
-        public int CompareTo([AllowNull] TKey other) => key.CompareTo(other);
+        public int CompareTo(TKey other) => key.CompareTo(other);
 
-        public int CompareTo([AllowNull] ComparalbeKeyValuePair<TKey, TValue> other) => key.CompareTo(other.key);
+        public int CompareTo(ComparalbeKeyValuePair<TKey, TValue> other) => key.CompareTo(other.key);
     }
 }
